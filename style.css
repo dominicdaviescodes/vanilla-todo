@@ -21,14 +21,16 @@ header {
   font-size: 1.5rem;
 }
 
-header, form {
+header,
+form {
   min-height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-form input, form button {
+form input,
+form button {
   padding: 0.5rem;
   font-size: 2rem;
   border: none;
@@ -45,4 +47,10 @@ form button {
 form button:hover {
   background: #3fada8;
   color: #fff;
+}
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
