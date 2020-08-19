@@ -54,3 +54,36 @@ form button:hover {
   justify-content: center;
   align-items: center;
 }
+
+.todo-list {
+  min-width: 30%;
+  list-style: none;
+}
+
+.todo {
+  margin: 0.5rem;
+  background: #ffffff;
+  color: #000000;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo li {
+  flex: 1;
+}
+
+.trash-btn,
+.complete-btn {
+  background: #3fada8;
+  color: #ffffff;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size-adjust: 1rem;
+}
+
+.trash-btn {
+  background: #EA5252;
+}
