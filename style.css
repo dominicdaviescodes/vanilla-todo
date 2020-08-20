@@ -13,7 +13,7 @@ body {
   background: linear-gradient(to right, #3fada8, #808080);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #ffffff;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   min-height: 100vh;
 }
 
@@ -85,9 +85,14 @@ form button:hover {
 }
 
 .trash-btn {
-  background: #EA5252;
+  background: #ea5252;
 }
 
-.todo-item{
-  padding:  0rem 0.5rem;
+.todo-item {
+  padding: 0rem 0.5rem;
+}
+
+.fa-trash,
+.fa-check {
+  pointer-events: none;
 }
